@@ -1,0 +1,118 @@
+@font-face {
+	font-family: "newFonte";
+	src: url('fonte/AngieBold.ttf');
+}
+
+body{
+  display: grid;
+  grid-template-columns: 65% 35%;
+  grid-template-rows: 50px 200px 1fr;
+  margin: 0;
+	font-family: "newFonte";
+}
+
+header{
+  grid-row: 1;
+  grid-column: 1/ span 2;
+  background-color: #05482f;
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: white;
+}
+
+#nomJeu{
+  font-size: 2em;
+  margin: 8px 0 0 30px;
+}
+
+#logoRolland{
+  margin: 5px 30px 0 0;
+}
+
+#classement{
+  grid-row: 3;
+  grid-column: 2;
+  background-color: #d35220;
+  height: 340px;
+  margin: 0 10px 10px 10px;
+  border-radius: 10px;
+  color: white;
+  margin: 0 10px 10px 10px;
+  padding: 0 10px 10px 10px;
+  font-size: 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+#classement p{
+  margin-top: 10px;
+}
+
+#tableau{
+  justify-content: space-evenly;
+  margin:auto;
+  width:100%;
+}
+
+th{
+  font-style: oblique;
+  font-size: 25px;
+  padding: 8px;
+}
+
+td{
+  padding: 5px;
+}
+
+#bienvenue{
+  display: flex;
+  justify-content: space-around;
+  grid-row: 2;
+  grid-column: 1/ span 2;
+  font-size: 70px;
+}
+
+#bienvenue p{
+  margin-top:60px;
+}
+
+#explicationsLancement{
+  font-size: 20px;
+  margin: 0 0 10px 10px;
+  border: 3px solid black;
+  border-radius: 10px;
+  padding: 0 10px 10px 10px;
+}
+
+#explicationsLancement p{
+  margin-top: 10px;
+}
+
+button{
+  height: 40px;
+  width: 90px;
+  background-color: #05482f;
+  color: white;
+  font-size: 20px;
+  border: 3px solid black;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+input{
+  border-radius: 10px;
+  border: 3px solid black;
+  height: 31px;
+  padding-top: 3px;
+  padding-bottom: 0px;
+  padding-left: 2px;
+  font-size: 20px;
+}
+
+form{
+  text-align: center;
+  margin-top: 35px;
+}
